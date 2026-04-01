@@ -1,0 +1,12 @@
+      .lista-citas .media {
+          border-bottom: 1px solid #e1e1e1;
+          padding-bottom: 3rem;
+      }
+
+      .lista-citas .media:last-of-type {
+          border-bottom: 0;
+      }
+
+      .lista-citas .media-body p {
+          margin: 0;
+      }
