@@ -4,7 +4,7 @@ import TextoMediano from './TextoMediano'
 
 function Header() {
     return(
-      <TextoMediano texto = "ADMINISTRADOR DE PACIENTES "/>
+      <h1>ADMINISTRADOR DE PACIENTES</h1>
     )
 }
 export default Header
