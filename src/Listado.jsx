@@ -1,6 +1,6 @@
 import './Listado.css'
-import './TextoMediano'
-import './Elemento'
+import TextoMediano from './TextoMediano.jsx'
+import Elemento from './Elemento.jsx'
 
 const citas = [
     {
@@ -33,11 +33,11 @@ function Listado(){
         <>
         <div className = "one-half column">
             <TextoMediano texto = "Administra tus citas"/>
-            <li>
+            <div>
                 {citas.map((cita) => (
                     <Elemento elemento = {cita}/>
                 ))}
-            </li>
+            </div>
         </div>
         </>
     )

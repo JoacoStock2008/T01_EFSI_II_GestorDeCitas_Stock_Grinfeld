@@ -1,8 +1,10 @@
 import './Formulario.css'
+import TextoMediano from './TextoMediano.jsx'
 
 function Formulario() {
     return (
         <div className = "one-half column">
+            <TextoMediano texto = "Crear mi Cita"/>
             <form>
                 <label>Nombre Mascota</label>
                 <input 
@@ -12,7 +14,6 @@ function Formulario() {
                     placeholder="Nombre Mascota" 
                     value=""
                 />
-                
                 <label>Nombre Dueño</label>
                 <input 
                     type="text" 
@@ -35,11 +36,12 @@ function Formulario() {
                     type="time" 
                     name="hora" 
                     className="u-full-width" 
-                    value=""/>
+                    value=""
+                />
                                 
                 <label>Sintomas</label>
-                <textarea name="sintomas" class="u-full-width"></textarea>
-                <button type="submit" class="u-full-width button-primary">Agregar Cita</button>
+                <textarea name="sintomas" className="u-full-width"></textarea>
+                <button type="submit" className="u-full-width button-primary">Agregar Cita</button>
             </form>
         </div>
     )

@@ -1,5 +1,5 @@
 import './TextoMediano.css'
-import './TextoMediano'
+import './TextoMediano.jsx'
 import TextoMediano from './TextoMediano'
 
 function Header() {
